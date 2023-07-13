@@ -30,7 +30,6 @@ struct ProfileView: View {
                     .padding(.trailing, -10)
                 
             }
-            
             Section {
                 UserRepoViewCell(languageColor: .blue, starsCount: 0, programmingLanguage: "Peniscode", repoName: "penis code", repoDesc: "awesome new penis language", userName: "penis worker")
             } header: {
@@ -40,9 +39,11 @@ struct ProfileView: View {
                 }
                 .fontWeight(.light)
                 .padding(.leading, -8)
+                
             }
         }
         .listStyle(.grouped)
+
         
     }
 }
