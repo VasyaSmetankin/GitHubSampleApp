@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F29B55B2A63001F00E2741B /* RepoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F29B55A2A63001F00E2741B /* RepoCellView.swift */; };
 		5FCA29CE2A60183800B3DE02 /* GitHubSampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA29CD2A60183800B3DE02 /* GitHubSampleAppApp.swift */; };
 		5FCA29D22A60183900B3DE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCA29D12A60183900B3DE02 /* Assets.xcassets */; };
 		5FCA29D52A60183900B3DE02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCA29D42A60183900B3DE02 /* Preview Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F29B55A2A63001F00E2741B /* RepoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCellView.swift; sourceTree = "<group>"; };
 		5FCA29CA2A60183800B3DE02 /* GitHubSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FCA29CD2A60183800B3DE02 /* GitHubSampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSampleAppApp.swift; sourceTree = "<group>"; };
 		5FCA29D12A60183900B3DE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				5FCA29F12A6041FB00B3DE02 /* ProfileViewCell.swift */,
 				5FCA29F02A6041FB00B3DE02 /* ProfileViewUserCell.swift */,
 				5FCA29F22A6041FB00B3DE02 /* UserRepoViewCell.swift */,
+				5F29B55A2A63001F00E2741B /* RepoCellView.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				5FCA29E22A6018B700B3DE02 /* ExploreView.swift in Sources */,
 				5FCA29E02A6018A400B3DE02 /* NotificationsView.swift in Sources */,
 				5FCA29F32A6041FB00B3DE02 /* ProfileViewUserCell.swift in Sources */,
+				5F29B55B2A63001F00E2741B /* RepoCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
