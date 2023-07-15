@@ -22,6 +22,7 @@ struct ProfileViewCell: View {
                 Image(systemName: rectangleImage)
                     .resizable()
                     .frame(width: 19, height: 19)
+                    .foregroundColor(.white)
             }
             Text(cellText)
             Spacer()
