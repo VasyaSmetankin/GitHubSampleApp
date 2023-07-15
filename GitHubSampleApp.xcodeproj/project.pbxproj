@@ -10,13 +10,15 @@
 		5FCA29CE2A60183800B3DE02 /* GitHubSampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA29CD2A60183800B3DE02 /* GitHubSampleAppApp.swift */; };
 		5FCA29D22A60183900B3DE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCA29D12A60183900B3DE02 /* Assets.xcassets */; };
 		5FCA29D52A60183900B3DE02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCA29D42A60183900B3DE02 /* Preview Assets.xcassets */; };
-		5FCA29DE2A60189700B3DE02 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA29DD2A60189700B3DE02 /* HomeView.swift */; };
 		5FCA29E02A6018A400B3DE02 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA29DF2A6018A400B3DE02 /* NotificationsView.swift */; };
 		5FCA29E22A6018B700B3DE02 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA29E12A6018B700B3DE02 /* ExploreView.swift */; };
 		5FCA29E42A6018C800B3DE02 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA29E32A6018C800B3DE02 /* ProfileView.swift */; };
 		5FCA29F32A6041FB00B3DE02 /* ProfileViewUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA29F02A6041FB00B3DE02 /* ProfileViewUserCell.swift */; };
 		5FCA29F42A6041FB00B3DE02 /* ProfileViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA29F12A6041FB00B3DE02 /* ProfileViewCell.swift */; };
 		5FCA29F52A6041FB00B3DE02 /* UserRepoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA29F22A6041FB00B3DE02 /* UserRepoViewCell.swift */; };
+		C64B858B2A604D170008B840 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B858A2A604D170008B840 /* HomeView.swift */; };
+		C64B858E2A604ECA0008B840 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B858D2A604ECA0008B840 /* SearchView.swift */; };
+		C64B85902A6053D10008B840 /* HomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B858F2A6053D10008B840 /* HomeTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,13 +26,15 @@
 		5FCA29CD2A60183800B3DE02 /* GitHubSampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSampleAppApp.swift; sourceTree = "<group>"; };
 		5FCA29D12A60183900B3DE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FCA29D42A60183900B3DE02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5FCA29DD2A60189700B3DE02 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5FCA29DF2A6018A400B3DE02 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		5FCA29E12A6018B700B3DE02 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		5FCA29E32A6018C800B3DE02 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		5FCA29F02A6041FB00B3DE02 /* ProfileViewUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewUserCell.swift; sourceTree = "<group>"; };
 		5FCA29F12A6041FB00B3DE02 /* ProfileViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewCell.swift; sourceTree = "<group>"; };
 		5FCA29F22A6041FB00B3DE02 /* UserRepoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRepoViewCell.swift; sourceTree = "<group>"; };
+		C64B858A2A604D170008B840 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C64B858D2A604ECA0008B840 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C64B858F2A6053D10008B840 /* HomeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +94,9 @@
 		5FCA29DC2A60186100B3DE02 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C64B858C2A604EB60008B840 /* Search */,
+				C64B85892A604D050008B840 /* Home */,
 				5FCA29EF2A6041EE00B3DE02 /* Cells */,
-				5FCA29DD2A60189700B3DE02 /* HomeView.swift */,
 				5FCA29DF2A6018A400B3DE02 /* NotificationsView.swift */,
 				5FCA29E12A6018B700B3DE02 /* ExploreView.swift */,
 				5FCA29E32A6018C800B3DE02 /* ProfileView.swift */,
@@ -107,6 +112,23 @@
 				5FCA29F22A6041FB00B3DE02 /* UserRepoViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		C64B85892A604D050008B840 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C64B858A2A604D170008B840 /* HomeView.swift */,
+				C64B858F2A6053D10008B840 /* HomeTableView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C64B858C2A604EB60008B840 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C64B858D2A604ECA0008B840 /* SearchView.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64B858B2A604D170008B840 /* HomeView.swift in Sources */,
+				C64B858E2A604ECA0008B840 /* SearchView.swift in Sources */,
+				C64B85902A6053D10008B840 /* HomeTableView.swift in Sources */,
 				5FCA29CE2A60183800B3DE02 /* GitHubSampleAppApp.swift in Sources */,
 				5FCA29F52A6041FB00B3DE02 /* UserRepoViewCell.swift in Sources */,
-				5FCA29DE2A60189700B3DE02 /* HomeView.swift in Sources */,
 				5FCA29E42A6018C800B3DE02 /* ProfileView.swift in Sources */,
 				5FCA29F42A6041FB00B3DE02 /* ProfileViewCell.swift in Sources */,
 				5FCA29E22A6018B700B3DE02 /* ExploreView.swift in Sources */,
