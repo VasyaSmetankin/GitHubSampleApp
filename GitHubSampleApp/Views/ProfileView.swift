@@ -16,6 +16,10 @@ struct ProfileView: View {
                 ProfileViewUserCell(userName: "User")
 
             }
+            .listRowBackground(Color(UIColor.systemGroupedBackground))
+            .listRowSeparator(.hidden)
+            
+            
             
             
             Section {
